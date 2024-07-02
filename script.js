@@ -10,5 +10,6 @@ while (i < ingredients.length) {
     const li = document.createElement('li');
     // inserisco il test nel list item
     li.innerText = ingredients[i];
-
+    // appendo il list item dentro la lista della spesa
+    lista_spesa.append(li);
 }
