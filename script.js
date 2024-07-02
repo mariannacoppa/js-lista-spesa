@@ -8,4 +8,7 @@ let i = 0;
 while (i < ingredients.length) {
     // creo nuovo list item
     const li = document.createElement('li');
+    // inserisco il test nel list item
+    li.innerText = ingredients[i];
+
 }
