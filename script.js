@@ -12,4 +12,6 @@ while (i < ingredients.length) {
     li.innerText = ingredients[i];
     // appendo il list item dentro la lista della spesa
     lista_spesa.append(li);
+    // definisco l'incremento della variabile contatore
+    i++
 }
