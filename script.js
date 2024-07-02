@@ -6,5 +6,6 @@ const lista_spesa = document.getElementById('lista_spesa');
 let i = 0;
 // creo il ciclo while inserendo la condizione di fine ciclo
 while (i < ingredients.length) {
-
+    // creo nuovo list item
+    const li = document.createElement('li');
 }
