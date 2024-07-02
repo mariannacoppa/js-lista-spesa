@@ -4,3 +4,7 @@ const ingredients = ['guanciale', 'peperoni', 'pasta', 'olive', 'controfiletto',
 const lista_spesa = document.getElementById('lista_spesa');
 // dichiaro e inizializzo la variabile contatore
 let i = 0;
+// creo il ciclo while inserendo la condizione di fine ciclo
+while (i < ingredients.length) {
+
+}
